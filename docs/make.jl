@@ -1,10 +1,10 @@
-using TWAISWCF
+using TWAISWCF, SWCForecastBase
 using Documenter
 
 DocMeta.setdocmeta!(TWAISWCF, :DocTestSetup, :(using TWAISWCF); recursive=true)
 
 makedocs(;
-    modules=[TWAISWCF],
+    modules=[TWAISWCF, SWCForecastBase],
     authors="okatsn <okatsn@gmail.com> and contributors",
     repo="https://github.com/okatsn/TWAISWCF/blob/{commit}{path}#{line}",
     sitename="TWAISWCF",
