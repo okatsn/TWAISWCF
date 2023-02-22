@@ -1,5 +1,5 @@
 ```@meta
-CurrentModule = TWAISWCF
+CurrentModule = SWCForecastBase
 ```
 # Library
 ## Index
@@ -8,5 +8,5 @@ CurrentModule = TWAISWCF
 
 ## Public interface
 ```@autodocs
-Modules = [TWAISWCF]
+Modules = [SWCForecastBase]
 ```

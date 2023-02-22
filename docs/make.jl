@@ -15,7 +15,9 @@ makedocs(;
         assets=String[],
     ),
     pages=[
-        "Home" => "index.md",
+        "Introduction" => "intro.md",
+        "Library" => "index.md",
+        "SWCForecastBase" => "swcfb.md",
     ],
 )
 
