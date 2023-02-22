@@ -1,7 +1,7 @@
 using TWAISWCF, SWCForecastBase
 using Documenter
 
-DocMeta.setdocmeta!(TWAISWCF, :DocTestSetup, :(using TWAISWCF, SWCForecastBase); recursive=true)
+DocMeta.setdocmeta!(TWAISWCF, :DocTestSetup, :(using TWAISWCF); recursive=true)
 
 makedocs(;
     modules=[TWAISWCF, SWCForecastBase],

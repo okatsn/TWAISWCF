@@ -1,6 +1,4 @@
-```@meta
-CurrentModule = SWCForecastBase
-```
+
 # Library
 ## Index
 ```@index
