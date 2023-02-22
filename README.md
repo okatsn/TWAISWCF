@@ -1,9 +1,9 @@
 # TWAISWCF
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://okatsn.github.io/TWAISWCF.jl/stable/)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://okatsn.github.io/TWAISWCF.jl/dev/)
-[![Build Status](https://github.com/okatsn/TWAISWCF.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/okatsn/TWAISWCF.jl/actions/workflows/CI.yml?query=branch%3Amain)
-[![Coverage](https://codecov.io/gh/okatsn/TWAISWCF.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/okatsn/TWAISWCF.jl)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://okatsn.github.io/TWAISWCF/stable/)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://okatsn.github.io/TWAISWCF/dev/)
+[![Build Status](https://github.com/okatsn/TWAISWCF/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/okatsn/TWAISWCF/actions/workflows/CI.yml?query=branch%3Amain)
+[![Coverage](https://codecov.io/gh/okatsn/TWAISWCF/branch/main/graph/badge.svg)](https://codecov.io/gh/okatsn/TWAISWCF)
 
 <!-- Don't have any of your custom contents above; they won't occur if there is no citation. -->
 
@@ -12,7 +12,7 @@
 This is a julia package created using `okatsn`'s preference, and this package is expected to be registered to [okatsn/OkRegistry](https://github.com/okatsn/OkRegistry) for CIs to work properly.
 
 !!! note Checklist
-    - [ ] Create an empty repository (namely, `https://github.com/okatsn/TWAISWCF.jl.git`) on github, and push the local to origin. See [connecting to remote](#tips-for-connecting-to-remote).
+    - [ ] Create an empty repository (namely, `https://github.com/okatsn/TWAISWCF.git`) on github, and push the local to origin. See [connecting to remote](#tips-for-connecting-to-remote).
     - [ ] Add `ACCESS_OKREGISTRY` secret in the settings of this repository on Github, or delete both `register.yml` and `TagBot.yml` in `/.github/workflows/`. See [Auto-Registration](#auto-registration).
 
 
@@ -23,7 +23,7 @@ This is a julia package created using `okatsn`'s preference, and this package is
 ## References
 
 ### Auto-Registration
-- You have to add `ACCESS_OKREGISTRY` to the secret under the remote repo (e.g., https://github.com/okatsn/TWAISWCF.jl).
+- You have to add `ACCESS_OKREGISTRY` to the secret under the remote repo (e.g., https://github.com/okatsn/TWAISWCF).
 - `ACCESS_OKREGISTRY` allows `CI.yml` to automatically register/update this package to [okatsn/OkRegistry](https://github.com/okatsn/OkRegistry).
 
 ### Test

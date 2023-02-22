@@ -4,7 +4,7 @@ CurrentModule = TWAISWCF
 
 # TWAISWCF
 
-Documentation for [TWAISWCF](https://github.com/okatsn/TWAISWCF.jl).
+Documentation for [TWAISWCF](https://github.com/okatsn/TWAISWCF).
 
 ```@index
 ```
