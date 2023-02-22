@@ -1,0 +1,36 @@
+# This is [Compose file](https://docs.docker.com/compose/compose-file/compose-file-v3/)
+version: '3'
+
+services:
+  dev:
+    image: swc-forecast-insider
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+      args:
+        VARIANT: "1.6.7"
+        PROJECT_DIR: /home/jovyan/swc-forecast-insider
+        JULIA_PKG_DEVDIR: /home/jovyan/.julia/dev
+        # Some tests depend on JULIA_PKG_DEVDIR; do not change it.
+        # "swc-forecast-insider" can be arbitrary; it's not required to be identical with the project directory in your WSL unbuntu (20.04)
+    init: true
+    # See https://docs.docker.com/compose/compose-file/compose-file-v3/#init
+    container_name: swc-forecast-insider
+    environment:
+      # https://cheaster.blogspot.com/2020/06/docker-composeyml-container-timezone.html
+      - TZ=Asia/Taipei
+    volumes:
+      # This is where VS Code should expect to find your project's source code and the value of "workspaceFolder" in .devcontainer/devcontainer.json
+      - ..:/home/jovyan/swc-forecast-insider
+      # Persistent the julia depot
+      - julia-depot:/home/jovyan/.julia
+      # Avoid reinstall vscode extensions
+      - vscode-extensions:/home/jovyan/.vscode-server/extensions
+      # Uncomment the next line to use Docker from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker-compose for details.
+      # - /var/run/docker.sock:/var/run/docker.sock
+    # Overrides default command so things don't shut down after the process ends.
+    command: sh -c "inv env.julia-daemon && sleep infinity"
+
+volumes:
+  julia-depot:
+  vscode-extensions:
