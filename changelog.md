@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.1.0
+## v0.0.1
 
 Initiating the project
 - `Dockerfile` for container building.
@@ -8,3 +8,5 @@ Initiating the project
 - Documentation with brief introduction to TWAISWCF.
 - Set up an empty julia environment.
 
+## v0.0.2
+Basic documentation pages

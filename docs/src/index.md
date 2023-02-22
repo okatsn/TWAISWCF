@@ -2,8 +2,10 @@
 CurrentModule = TWAISWCF
 ```
 # Library
+
 ## Index
 ```@index
+Modules = [TWAISWCF]
 ```
 
 ## Public interface
