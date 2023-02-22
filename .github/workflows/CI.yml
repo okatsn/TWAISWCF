@@ -59,6 +59,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
           julia --project=docs -e '
+            using Pkg
+            Pkg.update()
             using Documenter: DocMeta, doctest
             using TWAISWCF
             DocMeta.setdocmeta!(TWAISWCF, :DocTestSetup, :(using TWAISWCF); recursive=true)
