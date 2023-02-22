@@ -10,11 +10,12 @@
 ## Workflows
 TODOs:
 
-(`df0`)
+
 
 Pre-process
-- (`df1`) Calculate derived variables (accumulative precipitation)
-- (`df2`) series2supervised (time shift)
+- (From a `DataFrame` `df0`)
+- Calculate derived variables (accumulative precipitation) (=>`df1`)
+- series2supervised (time shift) (=> `df2`)
 - In TWAISWCF
 
 Feature selection
@@ -34,8 +35,34 @@ Training
 Predicting
 - Use trained model to predict
 
-Wrapping function
-- given a `df0`, current time `t0::DateTime`, train the model and outputs `df2_train` and `df2_test` (if available). % todo: remember to test the case where `df2_test` is `nothing`.
+### Wrapping function
+Given a `df0`, current time `t0::DateTime`, train the model and outputs `df2_train` and `df2_test` (if available). % todo: remember to test the case where `df2_test` is `nothing`.
+
+Example
+```julia
+mutable struct SWCModelPair
+    ytrain::DataFrame
+    ytest::Union{DataFrame, Nothing}
+    model::MLJ.Deterministic
+    name::String
+    fitresult
+end
+
+mutable struct SWCEverything
+    time_now::DateTime
+    xtrain::DataFrame
+    xtest::Union{DataFrame, Nothing}
+    modelpair::Vector{<:SWCModelPair}
+end
+
+"""
+Update this function.
+"""
+function SWCEverything(df0)
+# TODO: ...
+end
+
+```
 
 ## References
 
