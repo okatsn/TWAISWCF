@@ -1,5 +1,5 @@
 ```@meta
-CurrentModule = SWCForecastBase
+CurrentModule = TWAISWCF
 ```
 
 Besides train the model and test it at once, you may have these jobs done separately.
