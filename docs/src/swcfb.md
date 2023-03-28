@@ -2,6 +2,7 @@
 # SWCForecastBase
 ## Index
 ```@index
+Modules = [SWCForecastBase]
 ```
 
 ## Public interface

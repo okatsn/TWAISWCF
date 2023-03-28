@@ -2,6 +2,7 @@
 # SWCDatasets
 ## Index
 ```@index
+Modules = [SWCDatasets]
 ```
 
 ## Public interface
