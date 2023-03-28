@@ -1,5 +1,5 @@
 ```@meta
-CurrentModule = TWAISWCF
+CurrentModule = SWCForecastBase
 ```
 ## Create the `PrepareTable` object
 
@@ -7,6 +7,10 @@ CurrentModule = TWAISWCF
 PrepareTable
 ```
 
+
+```@docs
+PrepareTableDefault
+```
 
 ## Config
 

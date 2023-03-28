@@ -1,5 +1,5 @@
 
-# Library
+# SWCDatasets
 ## Index
 ```@index
 ```
