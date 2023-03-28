@@ -2,6 +2,8 @@
 CurrentModule = TWAISWCF
 ```
 
+## Training and Testing
+
 Besides train the model and test it at once, you may have these jobs done separately.
 
 ```julia

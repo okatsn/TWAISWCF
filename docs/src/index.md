@@ -1,4 +1,14 @@
 ```@contents
+Pages = [
+    "index.md",
+    "install.md",
+    "outline.md",
+    "preptab.md",
+    "traintest.md",
+    "finalsave.md", 
+    "swcd.md",
+    "swcfb.md",
+]
 ```
 
 

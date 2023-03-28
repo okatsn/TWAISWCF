@@ -18,7 +18,7 @@ makedocs(;
         "Introduction" => "index.md",
         "Installation" => "install.md",
         "Workflow" => [
-            "Outline" => "outline.md",
+            "Getting started" => "outline.md",
             "Prepare the Table" => "preptab.md",
             "Train and Test" => "traintest.md",
             "Save" => "finalsave.md"

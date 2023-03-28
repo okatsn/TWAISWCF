@@ -9,6 +9,7 @@ end
 using TWAISWCF
 ```
 
+# The workflow
 
 Outline
 - `PrepareTable` is an mutable structure with its field pointing to the source data, configurations, models and train-test results 
@@ -44,7 +45,14 @@ or use `PrepareTable` for general purposes.
 PrepareTable
 ```
 
-## Config
+## Configuration
+Currently available configurations:
+
+```@docs
+ConfigAccumulate
+ConfigPreprocess
+ConfigSeriesToSupervised
+```
 
 ## Manipulate
 ```@docs

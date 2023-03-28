@@ -1,3 +1,6 @@
+# Getting started
+The entire workflow including data preprocessing, training and testing can be done in the following few lines:
+
 ```julia
 using TWAISWCF # import the packages
 df = dataset("NCUWiseLab", "ARI_G2F820") # load the data
@@ -26,7 +29,7 @@ PT = PrepareTableDefault(df)
 
 ## Train and Test
 
-```
+```@example 1
 traintest!(PT; train_before = DateTime(2022, 03, 21), test_after = DateTime(2022, 3, 22))
 ```
 
@@ -35,4 +38,10 @@ traintest!(PT; train_before = DateTime(2022, 03, 21), test_after = DateTime(2022
 
 ```@example 1
 save(PT)
+```
+
+The results can also be accessible in the `cache` field of the `PrepareTable`. For example:
+
+```@example 1
+PT.cache.test.args.Y[1:5, :]
 ```
