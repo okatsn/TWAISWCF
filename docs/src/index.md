@@ -11,12 +11,3 @@ We trained and validated CART models using data collected in a grassland terrain
 
 This project is funded by the National Science and Technology Council (R.O.C) through grant number MOST 110-2634-F-008-008.
 
-## Index
-```@index
-Modules = [TWAISWCF]
-```
-
-## Public interface
-```@autodocs
-Modules = [TWAISWCF]
-```
