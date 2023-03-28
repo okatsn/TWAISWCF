@@ -5,11 +5,13 @@
 
 Download the [Current stable release](https://julialang.org/downloads/#current_stable_release) of julia.
 
-On windows, install and click on `julia.exe` (likely to be at `<USERNAME>\AppData\Local\Programs\Julia-1.8.5\bin\`) to start [The Julia REPL](https://docs.julialang.org/en/v1/stdlib/REPL/).
+On windows, install and click on `julia.exe` (likely under `<USERNAME>\AppData\Local\Programs\Julia-1.8.5\bin\`) to start [The Julia REPL](https://docs.julialang.org/en/v1/stdlib/REPL/).
 
 ## Add additional registry 
 
-`TWAISWCF` and some of its dependencies are registered on [OkRegistry](https://github.com/okatsn/OkRegistry); thus, you have to add `OkRegistry` to your environment firstly as follows:
+`TWAISWCF` and some of its dependencies are registered on [OkRegistry](https://github.com/okatsn/OkRegistry); thus, you have to add `OkRegistry` to your environment firstly as follows. 
+
+Open julia REPL, switch to Pkg REPL and:
 
 ```julia-repl
 (@v1.8) pkg> registry add https://github.com/okatsn/OkRegistry.git
@@ -29,6 +31,6 @@ In your project environment, add `TWAISWCF`:
 ```
 
 !!! note "Hint"
-    It can but it is not recommended to work on the `(@1.X) julia>` environment. See the followings to learn how to generate a project and activate the project environment.
+    It can but it is in general not recommended to work on the `(@1.X) julia>` environment. See the followings to learn how to generate a project and activate the project environment.
     - [Working with Environments](https://pkgdocs.julialang.org/v1/environments/)
     - [How to setup Project Environments in Julia](https://towardsdatascience.com/how-to-setup-project-environments-in-julia-ec8ae73afe9c)
