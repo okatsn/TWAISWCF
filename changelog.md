@@ -10,3 +10,6 @@ Initiating the project
 
 ## v0.0.2
 Basic documentation pages
+
+## v0.1.0
+Basic workflow works
