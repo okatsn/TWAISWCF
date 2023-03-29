@@ -1,10 +1,10 @@
-using TWAISWCF, SWCForecastBase, SWCDatasets
+using TWAISWCF, SWCForecastBase, SWCExampleDatasets
 using Documenter
 
 DocMeta.setdocmeta!(TWAISWCF, :DocTestSetup, :(using TWAISWCF); recursive=true)
 
 makedocs(;
-    modules=[TWAISWCF, SWCForecastBase, SWCDatasets],
+    modules=[TWAISWCF, SWCForecastBase, SWCExampleDatasets],
     authors="okatsn <okatsn@gmail.com> and contributors",
     repo="https://github.com/okatsn/TWAISWCF/blob/{commit}{path}#{line}",
     sitename="TWAISWCF",
@@ -25,7 +25,7 @@ makedocs(;
         ],
         "Dependencies" => [
             "SWCForecastBase.jl" => "swcfb.md",
-            "SWCDatasets.jl" => "swcd.md",
+            "SWCExampleDatasets.jl" => "swcd.md",
         ],
     ],
 )

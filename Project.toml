@@ -8,13 +8,15 @@ DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 SWCDatasets = "92a3a819-b5fa-4251-b583-c8bfed228d45"
+SWCExampleDatasets = "d741b33f-378c-4fda-a3ef-81fb108a0236"
 SWCForecastBase = "f25bfc00-93e4-48b9-89c1-3948a036d4be"
 
 [compat]
 DataFrames = "1.5.0"
 Documenter = "0.27.24"
 SWCDatasets = "0.2.6"
-SWCForecastBase = "0.4.1"
+SWCExampleDatasets = "0.1.0"
+SWCForecastBase = "0.4.3"
 julia = "1.6"
 
 [extras]

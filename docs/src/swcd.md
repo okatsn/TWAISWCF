@@ -1,13 +1,13 @@
 
-# SWCDatasets
+# SWCExampleDatasets
 ## Index
 ```@index
-Modules = [SWCDatasets]
+Modules = [SWCExampleDatasets]
 ```
 
 ## Public interface
 ```@autodocs
-Modules = [SWCDatasets]
+Modules = [SWCExampleDatasets]
 Pages = [
     "datasets.jl",
     "decompress.jl",

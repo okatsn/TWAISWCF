@@ -34,6 +34,7 @@ In your project environment, add `TWAISWCF`:
     It can but it is in general not recommended to work on the `(@1.X) julia>` environment. See the followings to learn how to generate a project and activate the project environment.
     - [Working with Environments](https://pkgdocs.julialang.org/v1/environments/)
     - [How to setup Project Environments in Julia](https://towardsdatascience.com/how-to-setup-project-environments-in-julia-ec8ae73afe9c)
+    - [Create a temporary/throwaway environement](https://stackoverflow.com/questions/66897756/with-julia-is-there-a-way-to-create-a-test-temporary-throwaway-environement)
 
 ## Keep updated to the latest version
 

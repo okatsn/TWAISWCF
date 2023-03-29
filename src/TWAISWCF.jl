@@ -7,9 +7,9 @@ using SWCForecastBase
 export PrepareTable, PrepareTableDefault, preparetable!, ConfigAccumulate, ConfigPreprocess, ConfigSeriesToSupervised
 export traintest!, train!, test!, save
 
-using SWCDatasets
-dataset = SWCDatasets.dataset
-datasets = SWCDatasets.datasets
+using SWCExampleDatasets
+dataset = SWCExampleDatasets.dataset
+datasets = SWCExampleDatasets.datasets
 export dataset, datasets
 
 end
