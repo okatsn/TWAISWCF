@@ -1,8 +1,5 @@
 ```@meta
 CurrentModule = TWAISWCF
-DocTestSetup  = quote
-    using TWAISWCF
-end
 ```
 
 ```@setup preptab
@@ -58,3 +55,9 @@ ConfigSeriesToSupervised
 ```@docs
 preparetable!
 ```
+
+## Status in each step
+```@docs
+SWCForecastBase.TrainTestState
+```
+

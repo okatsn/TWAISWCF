@@ -13,3 +13,6 @@ Basic documentation pages
 
 ## v0.1.0
 Basic workflow works
+
+## v0.1.2
+Additional verification of workflow order

@@ -521,9 +521,9 @@ version = "2.8.1+1"
 
 [[HypergeometricFunctions]]
 deps = ["DualNumbers", "LinearAlgebra", "OpenLibm_jll", "SpecialFunctions"]
-git-tree-sha1 = "fd77260897e227f9623fcd65d6a3ba6e88f8e947"
+git-tree-sha1 = "6de59b37a1d330bdd766610fe751fed605170dc4"
 uuid = "34004b35-14d8-5ef3-9330-4cdb6864b03a"
-version = "0.3.12"
+version = "0.3.13"
 
 [[IOCapture]]
 deps = ["Logging", "Random"]
@@ -1266,10 +1266,10 @@ uuid = "d741b33f-378c-4fda-a3ef-81fb108a0236"
 version = "0.1.0"
 
 [[SWCForecastBase]]
-deps = ["CSV", "CairoMakie", "Chain", "DataFrames", "Dates", "FileTrees", "Impute", "MLJ", "MLJDecisionTreeInterface", "NaNMath", "OkTableTools", "Random", "SWCDatasets", "ShiftedArrays", "Statistics", "StructArrays"]
-git-tree-sha1 = "dc5f9110195264a30d5f8ee82d8469ff9efe3bea"
+deps = ["CSV", "CairoMakie", "Chain", "DataFrames", "Dates", "FileTrees", "Impute", "MLJ", "MLJDecisionTreeInterface", "NaNMath", "OkTableTools", "Random", "SWCExampleDatasets", "ShiftedArrays", "Statistics", "StructArrays"]
+git-tree-sha1 = "3f0f0710a4f55b6f99ec387274c61e2078e14b9a"
 uuid = "f25bfc00-93e4-48b9-89c1-3948a036d4be"
-version = "0.4.1"
+version = "0.4.4"
 
 [[ScanByte]]
 deps = ["Libdl", "SIMD"]
@@ -1465,7 +1465,7 @@ version = "1.0.0"
 deps = ["DataFrames", "Dates", "Documenter", "SWCDatasets", "SWCExampleDatasets", "SWCForecastBase"]
 path = ".."
 uuid = "d9c8f7ca-66b2-433f-ab74-835b361b75b3"
-version = "0.1.0"
+version = "0.1.2"
 
 [[TableOperations]]
 deps = ["SentinelArrays", "Tables", "Test"]
