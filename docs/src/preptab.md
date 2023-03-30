@@ -3,7 +3,7 @@ CurrentModule = TWAISWCF
 ```
 
 ```@setup preptab
-using TWAISWCF
+using TWAISWCF, SWCExampleDatasets
 ```
 
 # The workflow
@@ -24,7 +24,7 @@ datasets()
 Load one as `DataFrame`
 
 ```@example preptab
-df = dataset("NCUWiseLab", "ARI_G2F820_example")
+df = SWCExampleDatasets.dataset("NCUWiseLab", "ARI_G2F820_example")
 df[1:5,:] # hide
 ```
 

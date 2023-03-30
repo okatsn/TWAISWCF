@@ -1253,12 +1253,6 @@ git-tree-sha1 = "8b20084a97b004588125caebf418d8cab9e393d1"
 uuid = "fdea26ae-647d-5447-a871-4b548cad5224"
 version = "3.4.4"
 
-[[SWCDatasets]]
-deps = ["CSV", "CodecZlib", "DataFrames", "Dates", "GZip", "OkFiles", "PrettyTables"]
-git-tree-sha1 = "de946ad6085a9f3fcd778e19210220cdfc832ae1"
-uuid = "92a3a819-b5fa-4251-b583-c8bfed228d45"
-version = "0.2.6"
-
 [[SWCExampleDatasets]]
 deps = ["SmallDatasetMaker"]
 git-tree-sha1 = "582f3cd038572d9e55c1f0fdc0a7a6c04220bd2b"
@@ -1462,10 +1456,10 @@ uuid = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 version = "1.0.0"
 
 [[TWAISWCF]]
-deps = ["DataFrames", "Dates", "Documenter", "SWCDatasets", "SWCExampleDatasets", "SWCForecastBase"]
+deps = ["DataFrames", "Dates", "Documenter", "SWCForecastBase"]
 path = ".."
 uuid = "d9c8f7ca-66b2-433f-ab74-835b361b75b3"
-version = "0.1.2"
+version = "0.1.4-DEV"
 
 [[TableOperations]]
 deps = ["SentinelArrays", "Tables", "Test"]

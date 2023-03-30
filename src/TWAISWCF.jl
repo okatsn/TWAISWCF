@@ -9,9 +9,5 @@ export traintest!, train!, test!, save
 # import SWCForecastBase: TrainTestState
 # export TrainTestState
 
-using SWCExampleDatasets
-dataset = SWCExampleDatasets.dataset
-datasets = SWCExampleDatasets.datasets
-export dataset, datasets
 
 end

@@ -19,3 +19,6 @@ Additional verification of workflow order
 
 ## v0.1.3
 Add example datasets
+
+## v0.1.4
+Fix datasets export
