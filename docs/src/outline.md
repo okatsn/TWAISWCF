@@ -3,7 +3,7 @@ The entire workflow including data preprocessing, training and testing can be do
 
 ```julia
 using TWAISWCF # import the packages
-df = dataset("NCUWiseLab", "ARI_G2F820") # load a dataset
+df = dataset("NCUWiseLab", "ARI_G2F820_example") # load a dataset
 PT = PrepareTableDefault(df) # data preprocessing
 traintest!(PT; 
         train_before = DateTime(2022, 03, 21), 
@@ -16,7 +16,7 @@ save(PT) # save the result
 
 ```@example 1
 using TWAISWCF
-df = dataset("NCUWiseLab", "ARI_G2F820")
+df = dataset("NCUWiseLab", "ARI_G2F820_example")
 df[1:5,:] # hide
 ```
 

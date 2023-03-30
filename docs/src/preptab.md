@@ -24,7 +24,7 @@ datasets()
 Load one as `DataFrame`
 
 ```@example preptab
-df = dataset("NCUWiseLab", "ARI_G2F820")
+df = dataset("NCUWiseLab", "ARI_G2F820_example")
 df[1:5,:] # hide
 ```
 

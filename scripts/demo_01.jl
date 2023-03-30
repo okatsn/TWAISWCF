@@ -1,5 +1,5 @@
 using Revise, TWAISWCF
-df = dataset("NCUWiseLab", "ARI_G2F820")
+df = dataset("NCUWiseLab", "ARI_G2F820_example")
 
 PT = PrepareTableDefault(df)
 

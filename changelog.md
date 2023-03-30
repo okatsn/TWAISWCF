@@ -16,3 +16,6 @@ Basic workflow works
 
 ## v0.1.2
 Additional verification of workflow order
+
+## v0.1.3
+Add example datasets
