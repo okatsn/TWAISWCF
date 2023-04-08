@@ -1,7 +1,7 @@
 name = "TWAISWCF"
 uuid = "d9c8f7ca-66b2-433f-ab74-835b361b75b3"
 authors = ["okatsn <okatsn@gmail.com> and contributors"]
-version = "0.1.4-DEV"
+version = "0.1.4"
 
 [deps]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
@@ -12,7 +12,7 @@ SWCForecastBase = "f25bfc00-93e4-48b9-89c1-3948a036d4be"
 [compat]
 DataFrames = "1.5.0"
 Documenter = "0.27.24"
-SWCForecastBase = "0.4.3"
+SWCForecastBase = "0.4.4"
 julia = "1.6"
 
 [extras]
