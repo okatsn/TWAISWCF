@@ -4,9 +4,11 @@ authors = ["okatsn <okatsn@gmail.com> and contributors"]
 version = "0.1.0"
 
 [deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+OkMakieToolkits = "4e74b330-6242-4c7a-bc50-5dcf56e2fdec"
 SWCForecastBase = "f25bfc00-93e4-48b9-89c1-3948a036d4be"
 
 [compat]
