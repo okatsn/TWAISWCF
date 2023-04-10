@@ -6,22 +6,25 @@ CurrentModule = TWAISWCF
 using TWAISWCF, SWCExampleDatasets
 ```
 
-# The workflow
+# An Exemplary Workflow
 
 Outline
 - `PrepareTable` is an mutable structure with its field pointing to the source data, configurations, models and train-test results 
 - its contents can be changed by `train!`, `test!` or `traintest!`
+- `PrepareTable` by default use regular expression for sorting and partitioning the input table; see the [Configuration](@ref) for more detailed information.
 
 
-## List available datasets and load one
 
-List available datasets
+
+## Load an dataset
+List available datasets from `SWCExampleDatasets`:
 
 ```@example preptab
-datasets()
+using SWCExampleDatasets
+SWCExampleDatasets.datasets()
 ```
 
-Load one as `DataFrame`
+Load one as `DataFrame`:
 
 ```@example preptab
 df = SWCExampleDatasets.dataset("NCUWiseLab", "ARI_G2F820_example")

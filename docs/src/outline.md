@@ -15,7 +15,7 @@ save(PT) # save the result
 ## Load a dataset
 
 ```@example 1
-using TWAISWCF
+using TWAISWCF, SWCExampleDatasets
 df = SWCExampleDatasets.dataset("NCUWiseLab", "ARI_G2F820_example")
 df[1:5,:] # hide
 ```
