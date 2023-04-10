@@ -1,0 +1,13 @@
+using Revise, TWAISWCF, SWCDatasets
+df = SWCDatasets.dataset("NCUWiseLab", "TowerNCU_combined")
+
+PT = PrepareTableDefault(df)
+
+traintest!(PT; train_before = DateTime(2018, 11, 21), test_after = DateTime(2018, 11, 21))
+
+
+using OkMakieToolkits
+
+f = Figure();
+timeseriesplot(f[1,1], x, values; testcolor=:brown2, realcolor=:blue, markersize=3)
+f
