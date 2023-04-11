@@ -2,7 +2,7 @@
 
 julia_version = "1.8.5"
 manifest_format = "2.0"
-project_hash = "a890bcbb546ac3e19cac6ef9156b00445171a3cd"
+project_hash = "f3a29eb8e74807489744f49eeb597bb15fce9ef2"
 
 [[deps.ANSIColoredPrinters]]
 git-tree-sha1 = "574baf8110975760d391c710b6341da1afa48d8c"
@@ -75,11 +75,6 @@ uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 git-tree-sha1 = "43b1a4a8f797c1cddadf60499a8a077d4af2cd2d"
 uuid = "d1d4a3ce-64b1-5f1a-9ba4-7e7e69966f35"
 version = "0.1.7"
-
-[[deps.BufferedStreams]]
-git-tree-sha1 = "bb065b14d7f941b8617bc323063dbe79f55d16ea"
-uuid = "e1450e63-4bb3-523b-b2a4-4ffa8c0fd77d"
-version = "1.1.0"
 
 [[deps.Bzip2_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -262,12 +257,6 @@ git-tree-sha1 = "bc0a264d3e7b3eeb0b6fc9f6481f970697f29805"
 uuid = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
 version = "0.7.10"
 
-[[deps.DataFrameTools]]
-deps = ["CSV", "DataFrames", "Dates", "DocumenterTools", "MAT"]
-git-tree-sha1 = "5a1bab47da576a9f0c341616f5dfa57cf6eca499"
-uuid = "2e886b56-b55e-403a-a2d0-ccbf75d993da"
-version = "0.5.4"
-
 [[deps.DataFrames]]
 deps = ["Compat", "DataAPI", "Future", "InlineStrings", "InvertedIndices", "IteratorInterfaceExtensions", "LinearAlgebra", "Markdown", "Missings", "PooledArrays", "PrettyTables", "Printf", "REPL", "Random", "Reexport", "SentinelArrays", "SnoopPrecompile", "SortingAlgorithms", "Statistics", "TableTraits", "Tables", "Unicode"]
 git-tree-sha1 = "aa51303df86f8626a962fccb878430cdb0a97eee"
@@ -332,12 +321,6 @@ deps = ["ANSIColoredPrinters", "Base64", "Dates", "DocStringExtensions", "IOCapt
 git-tree-sha1 = "58fea7c536acd71f3eef6be3b21c0df5f3df88fd"
 uuid = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 version = "0.27.24"
-
-[[deps.DocumenterTools]]
-deps = ["AbstractTrees", "Base64", "DocStringExtensions", "Documenter", "FileWatching", "Gumbo", "LibGit2", "OpenSSH_jll", "Sass"]
-git-tree-sha1 = "d80421b418f6cc6321acd131011ea68e890f46f3"
-uuid = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
-version = "0.1.16"
 
 [[deps.Downloads]]
 deps = ["ArgTools", "FileWatching", "LibCURL", "NetworkOptions"]
@@ -533,30 +516,6 @@ version = "0.9.1"
 git-tree-sha1 = "53bb909d1151e57e2484c3d1b53e19552b887fb2"
 uuid = "42e2da0e-8278-4e71-bc24-59509adca0fe"
 version = "1.0.2"
-
-[[deps.Gumbo]]
-deps = ["AbstractTrees", "Gumbo_jll", "Libdl"]
-git-tree-sha1 = "a1a138dfbf9df5bace489c7a9d5196d6afdfa140"
-uuid = "708ec375-b3d6-5a57-a7ce-8257bf98657a"
-version = "0.8.2"
-
-[[deps.Gumbo_jll]]
-deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
-git-tree-sha1 = "29070dee9df18d9565276d68a596854b1764aa38"
-uuid = "528830af-5a63-567c-a44a-034ed33b8444"
-version = "0.10.2+0"
-
-[[deps.HDF5]]
-deps = ["Compat", "HDF5_jll", "Libdl", "Mmap", "Random", "Requires", "UUIDs"]
-git-tree-sha1 = "3dab31542b3da9f25a6a1d11159d4af8fdce7d67"
-uuid = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
-version = "0.16.14"
-
-[[deps.HDF5_jll]]
-deps = ["Artifacts", "JLLWrappers", "LibCURL_jll", "Libdl", "OpenSSL_jll", "Pkg", "Zlib_jll"]
-git-tree-sha1 = "4cc2bb72df6ff40b055295fdef6d92955f9dede8"
-uuid = "0234f1f7-429e-5d53-9886-15a909be8d59"
-version = "1.12.2+2"
 
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "Dates", "IniFile", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
@@ -862,12 +821,6 @@ git-tree-sha1 = "60168780555f3e663c536500aa790b6368adc02a"
 uuid = "6f1432cf-f94c-5a45-995e-cdbf5db27b0b"
 version = "2.3.0"
 
-[[deps.MAT]]
-deps = ["BufferedStreams", "CodecZlib", "HDF5", "SparseArrays"]
-git-tree-sha1 = "6eff5740c8ab02c90065719579c7aa0eb40c9f69"
-uuid = "23992714-dd62-5051-b70f-ba57cb901cac"
-version = "0.10.4"
-
 [[deps.MKL_jll]]
 deps = ["Artifacts", "IntelOpenMP_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "Pkg"]
 git-tree-sha1 = "2ce8695e1e699b68702c03402672a69f54b8aca9"
@@ -1059,12 +1012,6 @@ git-tree-sha1 = "be2e19a28479d53e40e199149b4378de9479e1ed"
 uuid = "b25a35d4-863d-483c-9fa1-95480bd075d2"
 version = "0.4.1"
 
-[[deps.OkMakieToolkits]]
-deps = ["CairoMakie", "Chain", "DataFrameTools", "DataFrames", "Dates", "GeometryBasics", "PlotUtils", "ShiftedArrays", "Statistics"]
-path = "/home/jovyan/.julia/dev/OkMakieToolkits"
-uuid = "4e74b330-6242-4c7a-bc50-5dcf56e2fdec"
-version = "0.6.1"
-
 [[deps.OkTableTools]]
 deps = ["DataFrames", "Dates", "LinearAlgebra"]
 git-tree-sha1 = "72f769fe7133b7116d281086de3025397bdc8be2"
@@ -1098,12 +1045,6 @@ deps = ["ARFFFiles", "HTTP", "JSON", "Markdown", "Pkg", "Scratch"]
 git-tree-sha1 = "6efb039ae888699d5a74fb593f6f3e10c7193e33"
 uuid = "8b6db2d4-7670-4922-a472-f9537c81ab66"
 version = "0.3.1"
-
-[[deps.OpenSSH_jll]]
-deps = ["Artifacts", "JLLWrappers", "Libdl", "OpenSSL_jll", "Pkg", "Zlib_jll"]
-git-tree-sha1 = "1b2f042897343a9dfdcc9366e4ecbd3d00780c49"
-uuid = "9bd350c2-7e96-507f-8002-3f2e150b4e1b"
-version = "8.9.0+1"
 
 [[deps.OpenSSL]]
 deps = ["BitFlags", "Dates", "MozillaCACerts_jll", "OpenSSL_jll", "Sockets"]
@@ -1340,12 +1281,6 @@ git-tree-sha1 = "8b20084a97b004588125caebf418d8cab9e393d1"
 uuid = "fdea26ae-647d-5447-a871-4b548cad5224"
 version = "3.4.4"
 
-[[deps.SWCDatasets]]
-deps = ["CSV", "DataFrames", "Dates", "OkFiles", "SmallDatasetMaker"]
-path = "/home/jovyan/.julia/dev/SWCDatasets"
-uuid = "92a3a819-b5fa-4251-b583-c8bfed228d45"
-version = "0.2.8"
-
 [[deps.SWCExampleDatasets]]
 deps = ["SmallDatasetMaker"]
 git-tree-sha1 = "346f42747a98ad87374aff13736c656b3d4f9868"
@@ -1357,12 +1292,6 @@ deps = ["CSV", "CairoMakie", "Chain", "DataFrames", "Dates", "FileTrees", "Imput
 git-tree-sha1 = "9cae1bb7f04c44365a107626ccaf339e946a752d"
 uuid = "f25bfc00-93e4-48b9-89c1-3948a036d4be"
 version = "0.4.6"
-
-[[deps.Sass]]
-deps = ["libsass_jll"]
-git-tree-sha1 = "aa841c3738cec78b5dbccd56dda332710f35f6a5"
-uuid = "322a6be2-4ae8-5d68-aaf1-3e960788d1d9"
-version = "0.2.0"
 
 [[deps.ScanByte]]
 deps = ["Libdl", "SIMD"]
@@ -1766,12 +1695,6 @@ deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg", "Zlib_jll"]
 git-tree-sha1 = "94d180a6d2b5e55e447e2d27a29ed04fe79eb30c"
 uuid = "b53b4c65-9356-5827-b1ea-8c7a1a84506f"
 version = "1.6.38+0"
-
-[[deps.libsass_jll]]
-deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
-git-tree-sha1 = "941afb93587dcec07f89e511057f5efc0bec6f0d"
-uuid = "47bcb7c8-5119-555a-9eeb-0afcc36cd728"
-version = "3.6.4+0"
 
 [[deps.libsixel_jll]]
 deps = ["Artifacts", "JLLWrappers", "JpegTurbo_jll", "Libdl", "Pkg", "libpng_jll"]

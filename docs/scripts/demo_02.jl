@@ -11,3 +11,7 @@ using OkMakieToolkits
 f = Figure();
 timeseriesplot(f[1,1], x, values; testcolor=:brown2, realcolor=:blue, markersize=3)
 f
+
+
+# TODO:
+# You should make an additional SWCForecastPlots combining PredictData, timeseriesplot, timeseriesplot! together with new method making an array of PredictData from PrepareTable.
