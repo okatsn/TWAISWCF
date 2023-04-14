@@ -3,9 +3,11 @@
 
 ## Install Julia
 
-Download the [Current stable release](https://julialang.org/downloads/#current_stable_release) of julia.
+For windows user, 
+- Download the [Current stable release](https://julialang.org/downloads/#current_stable_release) of julia, or get julia on [Microsoft Store](https://www.microsoft.com/store/apps/9NJNWW8PVKMN).
+- Click on `julia.exe` (likely under `<USERNAME>\AppData\Local\Programs\Julia-1.8.5\bin\`), or type `julia` in windows terminal, to start [The Julia REPL](https://docs.julialang.org/en/v1/stdlib/REPL/).
 
-On windows, install and click on `julia.exe` (likely under `<USERNAME>\AppData\Local\Programs\Julia-1.8.5\bin\`) to start [The Julia REPL](https://docs.julialang.org/en/v1/stdlib/REPL/).
+
 
 ## Add additional registry 
 
