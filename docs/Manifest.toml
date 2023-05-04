@@ -2,7 +2,7 @@
 
 julia_version = "1.8.5"
 manifest_format = "2.0"
-project_hash = "f3a29eb8e74807489744f49eeb597bb15fce9ef2"
+project_hash = "6357d1ad9cfae645f0ff0fb8ee9251ef93f21fef"
 
 [[deps.ANSIColoredPrinters]]
 git-tree-sha1 = "574baf8110975760d391c710b6341da1afa48d8c"
@@ -1289,9 +1289,9 @@ version = "0.1.4"
 
 [[deps.SWCForecastBase]]
 deps = ["CSV", "CairoMakie", "Chain", "DataFrames", "Dates", "FileTrees", "Impute", "MLJ", "MLJDecisionTreeInterface", "NaNMath", "OkTableTools", "Random", "ShiftedArrays", "Statistics", "StructArrays"]
-git-tree-sha1 = "9cae1bb7f04c44365a107626ccaf339e946a752d"
+path = "/home/jovyan/.julia/dev/SWCForecastBase"
 uuid = "f25bfc00-93e4-48b9-89c1-3948a036d4be"
-version = "0.4.6"
+version = "0.4.7"
 
 [[deps.ScanByte]]
 deps = ["Libdl", "SIMD"]
