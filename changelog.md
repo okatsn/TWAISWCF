@@ -6,3 +6,6 @@
 - Additional verification of workflow order
 - Add example datasets (In docs)
 - Fix datasets export
+
+## v0.1.1
+- Keep updated with `SWCForecastBase` to v0.4.13
